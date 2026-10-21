@@ -39,7 +39,7 @@ export default function App() {
                 </form>
             </main>
             <footer className="pie">
-                Hecho para disfrutar cada cucharada <span aria-hidden="true">🍦</span>
+                Hecho para disfrutar cada cucharada 
             </footer>
         </div>
     );
