@@ -1,21 +1,27 @@
+import chocolate from "./assets/Hchocolate.webp";
+import caramelo from "./assets/Tcaramelo.jpg";
+import fresa from "./assets/Hfresa.jpg";
+import vainilla from "./assets/Hvainilla.jpg";
+import chispas from "./assets/Tchispas.jpg";
+import nueces from "./assets/Tnueces.webp";
 
 const encuestas = [
     {
         id: "sabor",
         pregunta: "¿Cuál es tu sabor favorito?",
         opciones: [
-            { id: "fresa", texto: "Fresa con crema", imagen: "" },
-            { id: "chocolate", texto: "Chocolate oscuro", imagen: "" },
-            { id: "vainilla", texto: "Vainilla de Madagascar", imagen: "" },
+            { id: "fresa", texto: "Fresa con crema", imagen: fresa },
+            { id: "chocolate", texto: "Chocolate oscuro", imagen: chocolate },
+            { id: "vainilla", texto: "Vainilla intensa", imagen: vainilla },
         ],
     },
     {
         id: "topping",
         pregunta: "¿Qué topping no puede faltar?",
         opciones: [
-            { id: "chispas", texto: "Chispas de colores", imagen: "" },
-            { id: "nueces", texto: "Nueces picadas", imagen: "" },
-            { id: "caramelo", texto: "Salsa de caramelo", imagen: "" },
+            { id: "chispas", texto: "Chispas de colores", imagen: chispas },
+            { id: "nueces", texto: "Nueces picadas", imagen: nueces },
+            { id: "caramelo", texto: "Sirope de caramelo", imagen: caramelo },
         ],
     },
     {
