@@ -4,6 +4,9 @@ import fresa from "./assets/Hfresa.jpg";
 import vainilla from "./assets/Hvainilla.jpg";
 import chispas from "./assets/Tchispas.jpg";
 import nueces from "./assets/Tnueces.webp";
+import cono from "./assets/Econo.jpg";
+import sundae from "./assets/Esundae.webp";
+import vaso from "./assets/Evasotrans.jpg";
 
 const encuestas = [
     {
@@ -28,9 +31,9 @@ const encuestas = [
         id: "formato",
         pregunta: "¿Cómo lo prefieres?",
         opciones: [
-            { id: "cono", texto: "En cono", imagen: "" },
-            { id: "vaso", texto: "En vaso", imagen: "" },
-            { id: "sundae", texto: "Tipo sundae", imagen: "" },
+            { id: "cono", texto: "En cono", imagen: cono },
+            { id: "vaso", texto: "En vaso", imagen: vaso },
+            { id: "sundae", texto: "Tipo sundae", imagen: sundae },
         ],
     },
 ];
