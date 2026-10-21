@@ -36,7 +36,7 @@ body {
     align-items: center;
     gap: 12px;
     padding: 16px 24px;
-    background: var(--arandano);
+    background: #237a45;
     color: #fff;
     border-radius: var(--radio);
 }
